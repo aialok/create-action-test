@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: aialok/create-action-test@v1.1
+        uses: aialok/create-action-test@523915ab8f75e7431841f1a4344bf4cfb65a1bae
         with:
           who-to-greet: 'aialok'
       # Use the output from the `hello` step
